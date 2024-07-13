@@ -3,6 +3,7 @@ import { CheckIcon, StarFilledIcon, StarIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Phone from "@/components/Phone"
 import { Icons } from "@/components/Icons";
+import {Reviews} from "@/components/Reviews";
 
 
 export default function Home() {
@@ -151,7 +152,13 @@ export default function Home() {
         </div>
 
       </MaxWidthWraperr>
+      <div className="pt-16">
+        <Reviews/>
+      </div>
     </section>
+
+
+    
    </div>
   );
 }
